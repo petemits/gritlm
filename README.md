@@ -7,7 +7,7 @@
 **Entry Point**: `not detected`  
 **Codebase**: 82 source files, 13964 lines of production‑ready code  
 **Architecture**: Object‑oriented  
-**Key Components**: 46 class(es): MistralRotaryEmbedding, GritLMTrainOutput, MixtralModel, CustomRandomSampler, GritLM, 164 function(s): split_inputs, cache_grad, varsize_gather, match, get_qa_prompt
+**Key Components**: 46 class(es): AutoModelForCausalLMWrapper, MixtralSparseMoeBlock, Task, MixtralDecoderLayer, CustomRandomSampler, 164 function(s): cat_input_tensor, grad_with_cache, build_cache, cache_step, save_distributed_dataset
 
 Note:
 
@@ -24,9 +24,9 @@ Note:
 - **Competitive Advantage**: Provides real‑time intelligence that outpaces competitors.
 - **Future‑Proof**: Designed to integrate with emerging AI and cloud technologies.
 
-## 🧠 My Approach: The Integration Orchestrator
+## 🧠 My Approach: The AI Ethicist
 
-I connect siloed systems. Whether it's CRMs, ERPs, or legacy mainframes, I build bridges that enable seamless data flow.
+I build fair, transparent, and explainable AI. I mitigate bias, ensure privacy, and foster trust in algorithmic decisions.
 
 ### 📌 My Focus & Track Record
 - **Role**: AI Data & Predictive Intelligence
@@ -38,27 +38,30 @@ I connect siloed systems. Whether it's CRMs, ERPs, or legacy mainframes, I build
 ### 🎯 Why This Project Exists
 **gritlm** is a direct reflection of this approach – a practical, battle‑tested component designed to solve a specific, high‑value business problem.
 
-**For Enterprise IT**: I reduce complexity by harmonising disparate systems.
+**For Responsible AI Teams**: I ensure your AI does good, not harm.
 
 I am open to conversations about how I can apply this mindset to your organisation.
 ## 🎯 Revenue‑Generating Use Cases
 
 1. Dynamic Pricing: Adjust product prices in real‑time based on demand and competitor data.
-2. Predictive Churn Modelling: Identify customers at risk of leaving and trigger retention workflows.
+2. Intelligent Document Processing: Extract and classify data from invoices, contracts, and forms.
 3. Inventory Optimisation: Analyse supply chain data to minimise stockouts and overstock costs.
-4. Intelligent Document Processing: Extract and classify data from invoices, contracts, and forms.
-5. Financial Data Aggregation: Consolidate and analyse transactional data for forecasting.
+4. Financial Data Aggregation: Consolidate and analyse transactional data for forecasting.
+5. Predictive Churn Modelling: Identify customers at risk of leaving and trigger retention workflows.
 
 ## 💡 Benefits & Ecosystem Integration
 
 ### ✨ Key Benefits
-- Data‑Driven Decisions: Provides real‑time, accurate insights that inform strategic direction.
+- Effortless Maintenance: Designed for easy updates, patching, and long‑term supportability.
+- Market Agility: Enables rapid iteration and deployment of new features.
+- Automated Compliance & Governance: Embeds regulatory requirements directly into the deployment pipeline.
 - User Retention: Enhances customer experience through personalisation and faster response times.
-- Enhanced Data Privacy: Protects sensitive user data with rigorous encryption and access controls.
-- Cross‑Functional Collaboration: Bridges gaps between business, design, and engineering teams.
-- Revenue Acceleration: Directly impacts top‑line growth by enabling faster time‑to‑market and personalisation.
-- Reduced Churn: Proactively identifies and addresses factors that cause customer attrition.
-- Scalability: Designed to handle growing volumes without proportional cost increases.
+- Sustainable Architecture: Reduces energy consumption, aligning technology with environmental goals.
+- Real‑Time Monitoring & Observability: Provides deep system visibility, enabling proactive issue resolution.
+- Seamless Third‑Party Integration: Connects effortlessly with external services, extending your ecosystem.
+- Low‑Latency Performance: Delivers near‑instantaneous responses for user‑facing applications.
+- Cost Reduction: Lowers infrastructure and operational costs through intelligent automation.
+- High Availability & Uptime: Ensures mission‑critical systems are always accessible to users.
 
 ### 🔗 Integrations
 - Host Operating System (files, environment, processes)
@@ -66,9 +69,11 @@ I am open to conversations about how I can apply this mindset to your organisati
 
 ## 📈 Scale to SaaS & Beyond
 
-- Cloud Deployment: Containerise with Docker and deploy to AWS, GCP, or Azure for global availability.
-- API Monetisation: Wrap the core logic in a REST/GraphQL API and sell access via a subscription model.
+- Event‑Driven Architecture: Integrate with message queues (Kafka, RabbitMQ) for asynchronous workflows.
 - CI/CD Pipeline: Integrate GitHub Actions to automate testing and deployment with every commit.
+- Third‑Party Integrations: Expand to additional CRM, ERP, or marketing automation tools.
+- API Monetisation: Wrap the core logic in a REST/GraphQL API and sell access via a subscription model.
+- Multi‑Tenancy: Extend to support multiple customers with isolated data and custom configurations.
 
 ## 🤖 AI Tools & Integrations (A–Z)
 
@@ -129,6 +134,24 @@ This project is designed to integrate seamlessly with a wide range of AI tools a
 | **ZenML** | MLOps framework for reproducible pipelines. |
 
 *This is a living list – new tools are constantly emerging. The modular design of this project makes it easy to plug in any AI service.*
+## 💻 AI Code Generation Tools (Free & Paid)
+
+To accelerate development, you can integrate these AI tools for code generation, autocompletion, and documentation. Pricing models are noted below.
+
+| Tool | Description | Pricing |
+| :--- | :--- | :--- |
+| **GitHub Copilot** | AI pair programmer. Free for open-source and verified students; paid plans from $10/month. | Freemium |
+| **Tabnine** | AI code completion for multiple languages. Free tier available; paid Pro from $12/month. | Freemium |
+| **Codeium** | AI-powered autocomplete and chat. Completely free for individual developers. | Free |
+| **Cursor** | AI-first code editor with built-in Copilot-like features. Free tier available; paid plans start at $20/month. | Freemium |
+| **Amazon CodeWhisperer** | AWS service for real‑time code suggestions. Free tier included; paid with AWS subscription. | Freemium |
+| **Replit Ghostwriter** | AI assistant in Replit's online IDE. Free tier included; paid plans from $7/month. | Freemium |
+| **Bito AI** | Code generation and explanation. Free for individuals; paid team plans. | Freemium |
+| **Sourcegraph Cody** | AI assistant for code understanding and generation. Free for individuals and open-source; paid for enterprise. | Freemium |
+| **Mintlify** | AI-powered documentation generator. Free tier; paid plans for teams. | Freemium |
+| **MightyMeld** | AI for React component generation. Free trial; paid plans from $15/month. | Freemium |
+
+*Most tools offer free tiers – perfect for personal projects and learning. Paid plans unlock higher limits and team features.*
 
 ## 📁 Project Structure
 ## 🚀 Full Program Guide (How to Run)
