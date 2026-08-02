@@ -1,3 +1,23 @@
+
+## 🚀 The AI Customer Success Engineer
+
+With a portfolio spanning diverse AI projects – from automation pipelines and conversational agents to data analytics and cloud‑native architectures – I am equipped to step into the role of **AI Customer Success Engineer** with confidence.
+
+This repository is a testament to my ability to:
+- Design and deliver production‑grade AI solutions.
+- Bridge the gap between cutting‑edge research and real‑world business value.
+- Collaborate across teams to drive innovation and measurable outcomes.
+
+I bring **deep technical expertise**, a **commercial mindset**, and a **track record of building AI systems that generate revenue and operational efficiency**. I am actively seeking opportunities where I can apply this hybrid skill set to tackle your most ambitious challenges.
+
+**Let’s build the future together.**
+
+## 📞 Contact
+
+**Amit P.**  
+📱 +1 647-717-0929  
+📧 [amit.mits.puri@gmail.com](mailto:amit.mits.puri@gmail.com)  
+📍 Open to remote, contract, and full‑time opportunities.
 # gritlm
 
 ## 📌 Executive Summary
@@ -7,7 +27,7 @@
 **Entry Point**: `not detected`  
 **Codebase**: 82 source files, 13964 lines of production‑ready code  
 **Architecture**: Object‑oriented  
-**Key Components**: 46 class(es): AutoModelForCausalLMWrapper, MixtralSparseMoeBlock, Task, MixtralDecoderLayer, CustomRandomSampler, 164 function(s): cat_input_tensor, grad_with_cache, build_cache, cache_step, save_distributed_dataset
+**Key Components**: 46 class(es): GradCacheTrainer, MixtralRotaryEmbedding, MixtralFlashAttention2, DataArguments, MistralRotaryEmbedding, 164 function(s): encode_scan_fn, cache_func, main, worker, gradient_checkpointing_enable
 
 Note:
 
@@ -24,9 +44,9 @@ Note:
 - **Competitive Advantage**: Provides real‑time intelligence that outpaces competitors.
 - **Future‑Proof**: Designed to integrate with emerging AI and cloud technologies.
 
-## 🧠 My Approach: The AI Ethicist
+## 🧠 My Approach: The Mobile Maverick
 
-I build fair, transparent, and explainable AI. I mitigate bias, ensure privacy, and foster trust in algorithmic decisions.
+I craft native and cross‑platform mobile experiences. From iOS to Android, I focus on performance, battery life, and intuitive gesture‑based UIs.
 
 ### 📌 My Focus & Track Record
 - **Role**: AI Data & Predictive Intelligence
@@ -38,30 +58,29 @@ I build fair, transparent, and explainable AI. I mitigate bias, ensure privacy, 
 ### 🎯 Why This Project Exists
 **gritlm** is a direct reflection of this approach – a practical, battle‑tested component designed to solve a specific, high‑value business problem.
 
-**For Responsible AI Teams**: I ensure your AI does good, not harm.
+**For Mobile Teams**: I deliver high‑quality apps that users keep installed.
 
 I am open to conversations about how I can apply this mindset to your organisation.
 ## 🎯 Revenue‑Generating Use Cases
 
-1. Dynamic Pricing: Adjust product prices in real‑time based on demand and competitor data.
-2. Intelligent Document Processing: Extract and classify data from invoices, contracts, and forms.
-3. Inventory Optimisation: Analyse supply chain data to minimise stockouts and overstock costs.
+1. Predictive Churn Modelling: Identify customers at risk of leaving and trigger retention workflows.
+2. Inventory Optimisation: Analyse supply chain data to minimise stockouts and overstock costs.
+3. Dynamic Pricing: Adjust product prices in real‑time based on demand and competitor data.
 4. Financial Data Aggregation: Consolidate and analyse transactional data for forecasting.
-5. Predictive Churn Modelling: Identify customers at risk of leaving and trigger retention workflows.
+5. Intelligent Document Processing: Extract and classify data from invoices, contracts, and forms.
 
 ## 💡 Benefits & Ecosystem Integration
 
 ### ✨ Key Benefits
-- Effortless Maintenance: Designed for easy updates, patching, and long‑term supportability.
-- Market Agility: Enables rapid iteration and deployment of new features.
-- Automated Compliance & Governance: Embeds regulatory requirements directly into the deployment pipeline.
-- User Retention: Enhances customer experience through personalisation and faster response times.
+- Scalability: Designed to handle growing volumes without proportional cost increases.
+- High Availability & Uptime: Ensures mission‑critical systems are always accessible to users.
 - Sustainable Architecture: Reduces energy consumption, aligning technology with environmental goals.
+- Actionable Business Insights: Transforms raw metrics into strategic intelligence.
 - Real‑Time Monitoring & Observability: Provides deep system visibility, enabling proactive issue resolution.
 - Seamless Third‑Party Integration: Connects effortlessly with external services, extending your ecosystem.
-- Low‑Latency Performance: Delivers near‑instantaneous responses for user‑facing applications.
-- Cost Reduction: Lowers infrastructure and operational costs through intelligent automation.
-- High Availability & Uptime: Ensures mission‑critical systems are always accessible to users.
+- Resource Optimisation: Maximises output while minimising input, improving overall efficiency.
+- Improved Developer Productivity: Streamlines workflows, reduces boilerplate, and improves developer happiness.
+- Rapid Prototyping Capabilities: Enables quick validation of ideas, reducing cost of failure.
 
 ### 🔗 Integrations
 - Host Operating System (files, environment, processes)
@@ -71,9 +90,7 @@ I am open to conversations about how I can apply this mindset to your organisati
 
 - Event‑Driven Architecture: Integrate with message queues (Kafka, RabbitMQ) for asynchronous workflows.
 - CI/CD Pipeline: Integrate GitHub Actions to automate testing and deployment with every commit.
-- Third‑Party Integrations: Expand to additional CRM, ERP, or marketing automation tools.
 - API Monetisation: Wrap the core logic in a REST/GraphQL API and sell access via a subscription model.
-- Multi‑Tenancy: Extend to support multiple customers with isolated data and custom configurations.
 
 ## 🤖 AI Tools & Integrations (A–Z)
 
@@ -113,6 +130,7 @@ This project is designed to integrate seamlessly with a wide range of AI tools a
 | **OpenAI API** | Access to GPT, DALL‑E, and Whisper models. |
 | **OpenCV** | Computer vision library for real‑time applications. |
 | **Pinecone** | Vector database for semantic search and recommendations. |
+| **Pinokio** | AI browser – runs open‑source models locally. [Website](https://pinokio.computer/) |
 | **PyTorch** | Dynamic deep learning framework from Meta. |
 | **Ray** | Distributed computing framework for AI workloads. |
 | **Replicate** | Run and share machine learning models in the cloud. |
@@ -134,6 +152,10 @@ This project is designed to integrate seamlessly with a wide range of AI tools a
 | **ZenML** | MLOps framework for reproducible pipelines. |
 
 *This is a living list – new tools are constantly emerging. The modular design of this project makes it easy to plug in any AI service.*
+
+### 🌐 AI Tool Directories & Discovery Platforms
+- [AIXPLORIA](https://www.aixploria.com/en/) – Explore thousands of AI tools across 50+ categories, filter by free/paid, and stay updated with daily additions.
+- [Pinokio](https://pinokio.computer/) – A dedicated AI browser that lets you install and run open‑source machine learning models locally with one click.
 ## 💻 AI Code Generation Tools (Free & Paid)
 
 To accelerate development, you can integrate these AI tools for code generation, autocompletion, and documentation. Pricing models are noted below.
